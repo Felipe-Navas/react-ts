@@ -1,18 +1,23 @@
-import { ChangeEvent, useState } from 'react'
+// import { ChangeEvent, useState } from 'react'
+import { useForm } from '../hooks/useForm'
 
-export const Form = () => {
-  const [form, setForm] = useState({
-    zipCode: '',
-    city: '',
-  })
+export const Form2 = () => {
+  // const [form, setForm] = useState({
+  //   zipCode: '',
+  //   city: '',
+  // })
 
-  const handleChange = ({ target }: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = target
-    setForm({
-      ...form,
-      [name]: value,
-    })
-  }
+  // const handleChange = ({ target }: ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = target
+  //   setForm({
+  //     ...form,
+  //     [name]: value,
+  //   })
+  // }
+
+  const { form, handleChange } = useForm({ zipCode: '3000', city: 'Madrid' })
+
+  const { zipCode, city } = form
 
   return (
     <form autoComplete="off">
@@ -22,6 +27,7 @@ export const Form = () => {
           type="text"
           className="form-control"
           name="zipCode"
+          value={zipCode}
           onChange={handleChange}
         />
       </div>
@@ -32,6 +38,7 @@ export const Form = () => {
           type="text"
           className="form-control"
           name="city"
+          value={city}
           onChange={handleChange}
         />
       </div>

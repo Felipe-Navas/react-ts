@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
-interface User {
+interface UserInterface {
   uid: string
   name: string
 }
 
 export const User = () => {
-  const [user, setUser] = useState<User>()
+  const [user, setUser] = useState<UserInterface>()
 
   const login = () => {
     setUser({

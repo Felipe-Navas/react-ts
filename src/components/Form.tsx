@@ -2,6 +2,12 @@
 
 import { useForm } from '../hooks/useForm'
 
+interface FormData {
+  name: string
+  email: string
+  age: number
+}
+
 export const Form = () => {
   //const [form, setForm] = useState({
   //  name: '',
@@ -16,10 +22,13 @@ export const Form = () => {
   //  })
   //}
 
-  const { form, handleChange } = useForm({
-    name: '',
-    email: '',
+  const { name, email, age, form, handleChange } = useForm<FormData>({
+    name: 'Test',
+    email: 'test@gmail.com',
+    age: 15,
   })
+
+  // const { name, email, age } = form
 
   return (
     <form autoComplete="off">
@@ -29,6 +38,7 @@ export const Form = () => {
           type="email"
           className="form-control"
           name="email"
+          value={email}
           onChange={handleChange}
         />
       </div>
@@ -39,6 +49,18 @@ export const Form = () => {
           type="text"
           className="form-control"
           name="name"
+          value={name}
+          onChange={handleChange}
+        />
+      </div>
+
+      <div className="mb-3">
+        <label className="form-label">Age:</label>
+        <input
+          type="number"
+          className="form-control"
+          name="age"
+          value={age}
           onChange={handleChange}
         />
       </div>

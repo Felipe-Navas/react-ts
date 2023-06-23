@@ -3,6 +3,7 @@ import { User } from './components/User'
 import { TimerFather } from './components/TimerFather';
 import { CounterReducer } from './components/CounterReducer';
 import { Form } from './components/Form';
+import { Form2 } from './components/Form2';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       <hr/>
       <h2>customHooks</h2>
       <Form />
+
+      <br/>
+      <Form2 />
 
       <br/>
       <br/>
