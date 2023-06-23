@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Actualizar el Readme.md
 ## Demo
 
-You can explore a live version of React Spa Heroes at the following URL:
+You can explore a live version of React Ts at the following URL:
 
 https://Felipe-Navas.github.io/react-ts
 
