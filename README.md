@@ -1,54 +1,60 @@
-# Getting Started with Create React App
+# React Ts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React App written with TypeScript
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+A React App written with TypeScript
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-Actualizar el Readme.md
 ## Demo
 
 You can explore a live version of React Ts at the following URL:
 
 https://Felipe-Navas.github.io/react-ts
 
+## Getting Started
+
+### Dependencies
+
+- `npm`
+- `node`
+
+### Installing
+
+- Clone the repository and install dependencies:
+
+```
+git clone https://github.com/Felipe-Navas/react-ts.git && cd react-ts && npm install
+```
+
+### Executing program
+
+```
+npm start
+```
+
+Preview of the main screen:
+
+<img width="350" src="assets/MainPreview.png" alt="Preview of the main screen" />
+
+### Running tests
+
+```
+npm test
+```
+
+## Authors
+
+- [Felipe Navas](https://www.linkedin.com/in/felipenavaslederhos) - [Email](mailto:felipenavas.itec@gmail.com?subject=[GitHub]%react-ts)
+
+## Contributing
+
+1. Fork it (<https://github.com/Felipe-Navas/react-ts/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the [MIT License] - see the LICENSE file for details

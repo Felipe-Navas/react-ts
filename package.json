@@ -2,7 +2,17 @@
   "name": "react-ts",
   "homepage": "https://Felipe-Navas.github.io/react-ts",
   "version": "1.0.0",
-  "private": true,
+  "description": "A React App written with TypeScript",
+  "main": "/src/index.tsx",
+  "author": "Felipe Navas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/react-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/react-ts/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
